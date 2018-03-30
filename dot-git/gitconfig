@@ -1,0 +1,23 @@
+[user]
+        name = Russell MacDonald
+        email = rmacdonald@weareenvoy.com
+
+[github]
+        user = rumadon
+
+[core]
+        exludesfile = /Users/Envoy/.gitignore_global
+        editor = nano
+
+[alias]
+        gs = status
+        cd = checkout develop
+        cm = checkout master
+        gb = branch
+        gca = commit -a --amend
+        gcw = commit -a -m "working commit"
+        rh = reset HEAD~
+        rc = git commit -a -c ORIG_HEAD
+        gpo = git push origin HEAD --force-with-lease
+        tree = git log --graph --oneline --decorate --all
+
