@@ -8,10 +8,12 @@ export DOTFILES="$PROJECTS/dotfiles"
 export DROPBOX="$HOME/Dropbox (Personal)"
 
 # source the base zshrc configurations first
-for config_file (~/.config/zsh/*.zsh) source $config_file
+for config_file (~/.dotfiles/dot-zsh/config/*.zsh) source $config_file
 
 # source the remaining zsh config files
 # the `^zsh` bit means all directories _except_ the `zsh` directory
-for config_file (~/.config/^zsh/*.zsh) source $config_file
+for config_file (~/.dotfiles/^dot-zsh/config/*.zsh) source $config_file
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+echo "It Worked?"

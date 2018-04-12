@@ -8,7 +8,7 @@
 [core]
         exludesfile = /Users/Envoy/.gitignore_global
         editor = nano
-        
+
 [pull]
         rebase = true
 
@@ -18,6 +18,6 @@
         ca = commit -a --amend
         cw = commit -a -m "working commit"
         rh = reset HEAD~
-        rc = git commit -a -c ORIG_HEAD
-        po = git push origin HEAD --force-with-lease
-        tree = git log --graph --oneline --decorate --all
+        rc = commit -a -c ORIG_HEAD
+        po = push origin HEAD --force-with-lease
+        tree = log --graph --oneline --decorate --all
