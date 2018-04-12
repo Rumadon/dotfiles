@@ -37,6 +37,4 @@ chsh -s /bin/zsh
 #==============
 # And we are done
 #==============
-echo -e "\n====== All Done!! ======\n"
-echo
-echo "Enjoy -Jarrod"
+echo -e "Finished!"

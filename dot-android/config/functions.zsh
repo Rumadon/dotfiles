@@ -61,7 +61,7 @@ record(){
 # grab the video recorded from the above (screenrecord) function and put it on the Desktop
 grab(){
     # Download the video
-    adb pull /sdcard/demo.mp4 ~/Desktop
+    adb pull /sdcard/demo.mp4 ~/Desktop/screenshots
 
     # Delete the video from the device
     adb shell rm /sdcard/demo.mp4
@@ -76,7 +76,7 @@ gif(){
     adb shell rm /sdcard/demo.mp4
 
     # Convert to a GIF named screenshot.gif on the Desktop
-    gifify ~/Desktop/demo.mp4 -o ~/Desktop/screenshot.gif
+    gifify ~/Desktop/demo.mp4 -o ~/Desktop/screenshots/screenshot.gif
 
     # Delete the mp4 from the Desktop
     rm ~/Desktop/demo.mp4
@@ -90,4 +90,3 @@ avd(){
     echo "Selected $avd"
     emulator -avd $avd -netdelay none -netspeed full
 }
-
