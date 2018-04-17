@@ -6,18 +6,22 @@
         user = rumadon
 
 [core]
-        exludesfile = /Users/Envoy/.gitignore_global
+        exludesfile = ~/.gitignore_global
         editor = nano
+	excludesfile = /Users/Envoy/.gitignore_global
 
 [pull]
         rebase = true
 
+[rebase]
+	autosquash = true
+
 [alias]
         d = checkout develop
         m = checkout master
-        ca = commit -a --amend
-        cw = commit -a -m "working commit"
+        ca = commit --all --amend
+        cw = commit --all -m "working commit"
         rh = reset HEAD~
-        rc = commit -a -c ORIG_HEAD
+        rc = commit --all -c ORIG_HEAD
         po = push origin HEAD --force-with-lease
         tree = log --graph --oneline --decorate --all

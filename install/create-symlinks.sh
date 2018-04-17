@@ -24,6 +24,8 @@ ln -sf $CURRENT_DIR/dot-vim ~/.vim
 ln -sf $CURRENT_DIR/dot-vimrc ~/.vimrc
 ln -sf $CURRENT_DIR/dot-bash/bashrc ~/.bashrc
 ln -sf $CURRENT_DIR/dot-git/gitconfig ~/.gitconfig
+ln -sf $CURRENT_DIR/dot-git/gitignore ~/.gitignore
+ln -sf $CURRENT_DIR/dot-git/gitignore_global ~/.gitignore_global
 # ln -sf $CURRENT_DIR/dot-zsh/zsh_prompt ~/.zsh_prompt
 ln -sf $CURRENT_DIR/dot-zsh/zshrc ~/.zshrc
 ln -sf $CURRENT_DIR/dot-config ~/.config
