@@ -1,8 +1,8 @@
 # your projects folder so that we can `c [tab]` to
-export PROJECTS="$HOME/code"
+export PROJECTS="~/Code"
 
 # shortcut to this dotfiles path is $DOTFILES
-export DOTFILES="$PROJECTS/dotfiles"
+export DOTFILES="~/.dotfiles"
 
 # Your personal Dropbox folder
 export DROPBOX="$HOME/Dropbox (Personal)"

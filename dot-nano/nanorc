@@ -1,0 +1,6 @@
+set smooth
+set autoindent
+
+include /usr/local/share/nano/nanorc.nanorc
+include /usr/local/share/nano/c.nanorc
+include /usr/local/share/nano/sh.nanorc
