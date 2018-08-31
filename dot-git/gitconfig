@@ -1,6 +1,6 @@
 [user]
         name = Russell MacDonald
-        email = rmacdonald@weareenvoy.com
+        email = russ@pitch.studio
 
 [github]
         user = rumadon
@@ -20,8 +20,9 @@
         d = checkout develop
         m = checkout master
         ca = commit --all --amend
-        cw = commit --all -m "working commit"
+        cw = commit --all -m \"working commit\"
         rh = reset HEAD~
         rc = commit --all -c ORIG_HEAD
         po = push origin HEAD --force-with-lease
         tree = log --graph --oneline --decorate --all
+	l = log
