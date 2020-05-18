@@ -11,3 +11,4 @@
 ./dot-bash
 ./dot-bash/functions
 ./dot-go
+./dot-node

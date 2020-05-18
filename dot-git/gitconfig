@@ -1,6 +1,6 @@
 [user]
         name = Russell MacDonald
-        email = russ@pitch.studio
+	email = rumadon444@gmail.com
 
 [github]
         user = rumadon
@@ -26,3 +26,10 @@
         po = push origin HEAD --force-with-lease
         tree = log --graph --oneline --decorate --all
 	l = log
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[credential]
+	helper = osxkeychain
