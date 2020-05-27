@@ -3,7 +3,13 @@
 set -e
 
 echo "Installing Homebrew packages..."
-brew update
+
+{
+    brew update
+} || {
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    brew update
+}
 brew tap homebrew/bundle
 brew bundle
 for brewfile in ~/.dotfiles/*/Brewfile; do
