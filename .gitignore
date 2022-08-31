@@ -1,4 +1,4 @@
 #ignore secrets files
 .DS_Store
 *.lock.json
-
+update-notifier-npm.json

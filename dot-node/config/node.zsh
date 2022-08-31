@@ -1,1 +1,1 @@
-source ~/.zsh-nvm/zsh-nvm.plugin.zsh
+#source ~/.zsh-nvm/zsh-nvm.plugin.zsh
