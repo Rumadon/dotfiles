@@ -22,4 +22,5 @@ done
 #  . "$setup"
 #done
 
+./install/download-tools.sh
 ./install/create-symlinks.sh

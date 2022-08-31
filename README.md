@@ -1,7 +1,7 @@
 My dot files, mainly git so far but working on more
 
 # dotfiles
-
+To install run setup.sh from the location of this this file
 
 ## Inspiration
 

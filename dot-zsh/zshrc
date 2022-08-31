@@ -14,8 +14,6 @@ for config_file (~/.dotfiles/dot-zsh/config/*.zsh) source $config_file
 # the `^zsh` bit means all directories _except_ the `zsh` directory
 for config_file (~/.dotfiles/^dot-zsh/config/*.zsh) source $config_file
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
- 
  # show full path in command prompt
  export PS1="%~ %% "
 # The next line updates PATH for the Google Cloud SDK.
@@ -26,3 +24,5 @@ if [ -f '/Users/russ/Code/cloud/google-cloud-sdk/completion.zsh.inc' ]; then . '
 
 # Added by Amplify CLI binary installer
 export PATH="$HOME/.amplify/bin:$PATH"
+
+source ~/.dotfiles/dot-zsh/tools/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
