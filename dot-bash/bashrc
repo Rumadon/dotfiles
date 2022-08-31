@@ -1,3 +1,5 @@
+export ANDROID_SDK=$HOME/Library/Android/sdk
+
 #source ./git-completion.bash
 #source ./gradle-tab-completion.bash
 #if [ -f /sw/etc/bash_completion ]; then

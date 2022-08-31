@@ -1,14 +1,16 @@
 [user]
         name = Russell MacDonald
-	email = rumadon444@gmail.com
+	email = rmacdonald@arlo.com
 
 [github]
         user = rumadon
 
 [core]
         exludesfile = ~/.gitignore_global
-        editor = nano
+	editor = nano
 	excludesfile = /Users/Envoy/.gitignore_global
+	autocrlf = false
+	ignorecase = false
 
 [pull]
         rebase = true
