@@ -6,3 +6,4 @@ dependencies.txt
 assemble.sh
 .idea/
 # gradle.properties
+.idea/codarloutil asgard_cmd printeStyles/Project.xml

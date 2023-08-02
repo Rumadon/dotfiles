@@ -26,3 +26,4 @@ if [ -f '/Users/russ/Code/cloud/google-cloud-sdk/completion.zsh.inc' ]; then . '
 export PATH="$HOME/.amplify/bin:$PATH"
 
 source ~/.dotfiles/dot-zsh/tools/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export PATH=$PATH:/Users/RMacDonald/.privado/bin

@@ -8,7 +8,7 @@
 [core]
         exludesfile = ~/.gitignore_global
 	editor = nano
-	excludesfile = /Users/Envoy/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	autocrlf = false
 	ignorecase = false
 

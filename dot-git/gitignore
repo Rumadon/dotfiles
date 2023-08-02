@@ -1,3 +1,7 @@
 .DS_Store
 .keystore
 .idea
+Project.xml
+# gradle.properties
+codeStyles/Project.xml
+
