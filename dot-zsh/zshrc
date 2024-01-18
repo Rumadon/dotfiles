@@ -27,3 +27,4 @@ export PATH="$HOME/.amplify/bin:$PATH"
 
 source ~/.dotfiles/dot-zsh/tools/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH=$PATH:/Users/RMacDonald/.privado/bin
+eval "$(/opt/homebrew/bin/brew shellenv)"
