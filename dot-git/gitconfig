@@ -6,7 +6,6 @@
         user = rumadon
 
 [core]
-        exludesfile = ~/.gitignore_global
 	editor = nano
 	excludesfile = ~/.gitignore_global
 	autocrlf = false
@@ -25,9 +24,12 @@
         cw = commit --all -m \"working commit\"
         rh = reset HEAD~
         rc = commit --all -c ORIG_HEAD
-        po = push origin HEAD --force-with-lease
+        po = push origin HEAD
+	pof = push origin HEAD --force-with-lease
         tree = log --graph --oneline --decorate --all
 	l = log
+	su = submodule update --remote
+
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
