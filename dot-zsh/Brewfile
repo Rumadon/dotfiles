@@ -1,3 +1,6 @@
 brew 'zsh'
 brew 'zsh-syntax-highlighting'
 brew 'fzf'
+brew 'openjdk@17'
+brew 'openjdk@21'
+brew 'openjdk@25'

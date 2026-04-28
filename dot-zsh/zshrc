@@ -30,3 +30,8 @@ export PATH=$PATH:/Users/rmacdonald/.privado/bin
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 alias asterm="TERM=vt100"
+
+export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+alias java17="export JAVA_HOME=`/usr/libexec/java_home -v 17`"
+alias java21="export JAVA_HOME=`/usr/libexec/java_home -v 21`"
+alias java25="export JAVA_HOME=`/usr/libexec/java_home -v 25`"
