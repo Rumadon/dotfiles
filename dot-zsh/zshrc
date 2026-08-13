@@ -35,3 +35,10 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 alias java17="export JAVA_HOME=`/usr/libexec/java_home -v 17`"
 alias java21="export JAVA_HOME=`/usr/libexec/java_home -v 21`"
 alias java25="export JAVA_HOME=`/usr/libexec/java_home -v 25`"
+
+# FIDDLER_EVERYWHERE_SCRIPT_START
+if [ -n "$FE_STARTED" ] && [ -s '/Applications/Fiddler Everywhere.app/Contents/Resources/app/out/assets/scripts/startup-mac.sh' ] && [ "$STARTUP_SOURCED" != "true" ] ; then
+    source '/Applications/Fiddler Everywhere.app/Contents/Resources/app/out/assets/scripts/startup-mac.sh'
+    STARTUP_SOURCED="true"
+fi
+# FIDDLER_EVERYWHERE_SCRIPT_END

@@ -11,3 +11,10 @@ source ./function/pushapk.sh
 for function in ~/.zsh/functions/*; do
   source $function
 done
+
+# FIDDLER_EVERYWHERE_SCRIPT_START
+if [ -n "$FE_STARTED" ] && [ -s '/Applications/Fiddler Everywhere.app/Contents/Resources/app/out/assets/scripts/startup-mac.sh' ] && [ "$STARTUP_SOURCED" != "true" ] ; then
+    source '/Applications/Fiddler Everywhere.app/Contents/Resources/app/out/assets/scripts/startup-mac.sh'
+    STARTUP_SOURCED="true"
+fi
+# FIDDLER_EVERYWHERE_SCRIPT_END
