@@ -1,9 +1,9 @@
 [user]
-        name = Russell MacDonald
+	name = Russell MacDonald
 	email = rmacdonald@betabionics.com
 
 [github]
-        user = rumadon
+	user = rumadon
 
 [core]
 	editor = nano
@@ -12,21 +12,21 @@
 	ignorecase = false
 
 [pull]
-        rebase = true
+	rebase = true
 
 [rebase]
 	autosquash = true
 
 [alias]
-        d = checkout develop
-        m = checkout master
-        ca = commit --all --amend
-        cw = commit --all -m \"working commit\"
-        rh = reset HEAD~
-        rc = commit --all -c ORIG_HEAD
-        po = push origin HEAD
+	d = checkout develop
+	m = checkout master
+	ca = commit --all --amend
+	cw = commit --all -m \"working commit\"
+	rh = reset HEAD~
+	rc = commit --all -c ORIG_HEAD
+	po = push origin HEAD
 	pof = push origin HEAD --force-with-lease
-        tree = log --graph --oneline --decorate --all
+	tree = log --graph --oneline --decorate --all
 	l = log
 	su = submodule update --remote
 
